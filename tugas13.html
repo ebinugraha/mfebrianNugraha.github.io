@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cooler Master</title>
+    <link rel="stylesheet" href="w3.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html * {
+        font-family: "Teko";
+        letter-spacing: 2px;
+      }
+      button {
+        margin-right: 20px;
+      }
+    </style>
+  </head>
+  <body style="background-color: #514c9c">
+    <div>
+      <img src="img/banner.png" width="100%" />
+    </div>
+    <div
+      class="w3-bar w3-padding-16"
+      style="
+        background-color: #514c9c;
+        color: white;
+        padding-left: 20px;
+        margin-bottom: 20px;
+      "
+    >
+      <button
+        id="tombolHome"
+        class="w3-bar-item w3-button w3-round-xxlarge tombol"
+        onclick="openTab('home', 'tombolHome')"
+      >
+        Home
+      </button>
+      <button
+        id="tombolMouse"
+        class="w3-bar-item w3-button w3-hover-white w3-round-xxlarge tombol"
+        onclick="openTab('mouse', 'tombolMouse')"
+      >
+        Mouse
+      </button>
+      <button
+      id="tombolHeadset"
+        class="w3-bar-item w3-button w3-hover-white w3-round-xxlarge tombol"
+        onclick="openTab('headset','tombolHeadset')"
+      >
+        Headset
+      </button>
+      <button
+      id="tombolKeyboard"
+        class="w3-bar-item w3-button w3-hover-white w3-round-xxlarge tombol"
+        onclick="openTab('keyboard','tombolKeyboard')"
+      >
+        Keyboard
+      </button>
+
+      <button
+      id="tombolProfile"
+        class="w3-bar-item w3-button w3-hover-white w3-round-xxlarge tombol"
+        onclick="openTab('profile', 'tombolProfile')"
+      >
+        Profile
+      </button>
+    </div>
+
+    <div id="home" class="halaman w3-animate-bottom" style="display: none">
+      <div class="gatau">
+        <img class="layer-1 image" src="img/background.png" />
+        <img class="layer-2 image" src="img/meteor.png" />
+
+        <div class="layer-3">
+          <h1 style="font-weight: bolder">Welcome &amp; Break Your Limit</h1>
+          <p>
+            Be the first to know all about special offers, new products and
+            contests.
+          </p>
+          <a href="#teks">Get Started</a>
+        </div>
+
+        <img class="layer-4 image" src="img/4.png" />
+        <img class="layer-5 image" src="img/5.png" />
+        <img class="image" src="img/6.png" />
+      </div>
+
+      <div
+        class="w3-container w3-padding-64"
+        id="teks"
+        style="background-color: #1d1d4f; padding: 60px; position: relative"
+      >
+        <h1 style="text-align: center; margin: 40px 0">Cooler master</h1>
+        <p>
+          Cooler Master Technology Inc. is a computer hardware manufacturer
+          based in Taiwan. Founded in 1992, the company produces computer cases,
+          power supplies, air and liquid CPU coolers, laptop cooling pads, and
+          computer peripherals. Alongside its retail business, Cooler Master
+          also is an original equipment manufacturer of cooling devices for
+          other manufacturers including NVIDIA (VGA coolers), AMD (CPU[citation
+          needed] and VGA coolers), and EVGA (motherboard heatsinks). The
+          company has sponsored major eSports events. Some of Cooler Master's
+          products have won awards including the iF product design award.
+        </p>
+        <p>
+          The company headquarters of Cooler Master is located in Neihu
+          District, Taipei City, Taiwan and has a manufacturing facility in
+          Huizhou, China. To support international operations, the company also
+          has branch offices in various continents, including United States
+          (Fremont, California and Chino, California), the Netherlands
+          (Eindhoven), Italy (Milano), France (Paris), Germany (Augsburg),
+          Russia (Moscow), and Brazil (São Paulo).
+        </p>
+        <p>
+          The company in March 2020 continues to release its own gaming
+          headsets, with products like the MH670 headphones allowing
+          customization through the Cooler Master configuration app, named
+          Portal. It also makes esports mice. One of its main current products
+          is the Hyper 212 Evo CPU cooler, which PCWorld says is "arguably the
+          most popular CPU air cooler for the budget-minded crowd wanting to
+          upgrade from the stock options." The company also makes other air
+          coolers, liquid coolers, PC cases, fans, and power supplies. In
+          January 2020, the company changed its applicator style to a new
+          wide-tipped applicator, with Cooler Master stating that it was to
+          alarm fewer parents about the older syringe shape.[12] The KFConsole,
+          a home video game console launched in December 2020, is part of a
+          partnership between Cooler Master and KFC.
+        </p>
+      </div>
+    </div>
+
+    <div id="keyboard" class="halaman" style="display: none">
+      <div class="w3-row w3-animate-left" style="background-color: #c9c9c9">
+        <div class="w3-third">
+          <img
+            src="img/keyboard.png"
+            alt=""
+            style="width: 100%; object-fit: contain"
+          />
+        </div>
+        <div class="w3-twothird">
+          <h1 style="color: black">
+            COMPACT, LOW PROFILE STYLING FOR SLIM CLICKIN'S
+          </h1>
+          <p style="color: black; font-size: x-large">
+            The SK650 sports a bold new look for mechanical keyboards with new
+            Cherry MX Low Profile switches. All the durability and precision of
+            traditional Cherry MX switches, now with a travel distance and
+            actuation point reduced by 0.8mm. Add in ultra-flat keycaps, and you
+            have a slim, full-sized mechanical keyboard that‚Äôs stripped down
+            only in appearance, not quality.
+          </p>
+        </div>
+      </div>
+      <div class="w3-row w3-animate-right" style="background-color: #c9c9c9">
+        <div class="w3-twothird">
+          <h1 style="color: black">NO SOFTWARE REQUIRED</h1>
+          <p style="color: black; font-size: x-large;">
+            When you're in a groove, the last thing you want to do is Alt+Tab
+            out to adjust your keyboard settings. The SK650 combats that with an
+            innovative On-the-fly System. Easily adjust per-key backlighting,
+            switch lighting modes, and even record macros with just a few
+            keypresses. Get the functionality of software without needing to
+            have software bloating your system - saving you time and precious PC
+            resources.
+          </p>
+          <center>
+
+              <img src="img/shortcut.png" alt="">
+          </center>
+        </div>
+        <div class="w3-third">
+          <img src="img/switch.png" style="width: 100%" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div id="headset" class="halaman" style="display: none">
+      <div
+        class="w3-row w3-animate-left"
+        style="
+          background-image: url('img/headset.png');
+          object-fit: contain;
+          background-size: cover;
+          width: 100%;
+          height: 400px;
+        "
+      >
+        <div class="w3-container w3-third w3-padding-32">
+          <h1>CRYSTAL-CLEAR COMMS</h1>
+          <p style="font-size: x-large; color: white; margin-left: 20px">
+            An omnidirectional boom mic makes your voice sound natural and
+            provides clear communication with your squad.
+          </p>
+        </div>
+        <div class="w3-container w3-twothird"></div>
+      </div>
+      <div
+        class="w3-row w3-animate-right"
+        style="
+          background-image: url('img/headset2.png');
+          object-fit: contain;
+          background-size: cover;
+          width: 100%;
+          height: 400px;
+        "
+      >
+        <div class="w3-container w3-third w3-padding-32">
+          <h1>SOUND QUALITY TO MATCH</h1>
+          <p
+            style="
+              font-size: larger;
+              color: white;
+              margin-left: 20px;
+              font-size: x-large;
+            "
+          >
+            40mm Neodymium drivers gives the kind of full, balanced sound your
+            games deserve.
+          </p>
+        </div>
+        <div class="w3-container w3-twothird"></div>
+      </div>
+    </div>
+
+    <div id="mouse" class="halaman" style="display: none">
+      <div class="w3-row" style="background-color: #fd028a">
+        <div class="w3-container w3-third w3-animate-left">
+          <img
+            src="img/mouse.png"
+            alt=""
+            srcset=""
+            style="width: 100%; object-fit: contain"
+          />
+        </div>
+        <div class="w3-container w3-twothird w3-animate-left">
+          <h1>AN OPTICAL UPGRADE</h1>
+          <p style="color: white; font-size: x-large">
+            We don't believe in level caps. So if we're going to upgrade the
+            look, we might as well upgrade the hardware too. The MM712 is
+            outfitted with the latest pro-grade optical sensor, adjustable up to
+            19,000 DPI for superior responsiveness and accuracy — improved even
+            further from our already awesome MM711.
+          </p>
+        </div>
+      </div>
+      <div class="w3-row" style="background-color: #1ceee4">
+        <div class="w3-container w3-twothird w3-animate-right">
+          <h1 style="color: black">
+            COMPETE WITH THE POWER OF THE SPEED OF LIGHT
+          </h1>
+          <p style="color: black; font-size: x-large">
+            The honeycomb shell that made the MM711 such a lightweight
+            heavyweight is now upgraded in a big way. Say goodbye to the cheese
+            grater design: the MM712 sports a seamless whole chassis with
+            ergonomic form factor while still maintaining a total weight of less
+            than 59 grams. Don’t ask us how we did it — just be happy we did.
+          </p>
+        </div>
+        <div class="w3-container w3-third w3-animate-right">
+          <img
+            src="img/mouse2.png"
+            alt=""
+            srcset=""
+            style="width: 100%; object-fit: contain"
+          />
+        </div>
+      </div>
+      <div class="w3-row" style="background-color: #fd028a">
+        <div class="w3-container w3-third w3-animate-left">
+          <img
+            src="img/mouse3.png"
+            alt=""
+            srcset=""
+            style="width: 100%; object-fit: contain"
+          />
+        </div>
+        <div class="w3-container w3-twothird w3-animate-left">
+          <h1>HYBRID WIRELESS SO YOU DON’T HAVE TO CHOOSE</h1>
+          <p style="font-size: x-large">
+            The MM712 is built for cord cutters and stubborn traditionalists
+            alike. Operate the mouse in legacy wired mode, or ditch the cord for
+            two types of wireless functionality: lag-free 2.4 GHz wireless or
+            state-of-the-art Bluetooth 5.1 connectivity.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="profile" class="halaman" style="display: none">
+      <div
+        class="w3-animate-bottom"
+        style="
+          background-image: url('img/backgroundProfile.png');
+          background-repeat: no-repeat;
+          background-position: center;
+          height: 792px;
+        "
+      >
+        <div class="w3-display-middle">
+          <h3>Website Buatan</h3>
+          <img src="img/itsme.jpeg" style="object-fit: contain; width: 200px; margin-bottom: 20px;" alt="">
+          <h3>Nama &nbsp;: Febrian</h3>
+          <h3>Kelas &nbsp;: IF-6</h3>
+          <h3>NIM &nbsp;: 10122202</h3>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      document.getElementById("home").style.display = "block";
+      document.getElementById("tombolHome").style.backgroundColor = "#FE008A";
+      document.getElementById("tombolHome").style.color = "#514c9c";
+
+      let layer_1 = document.querySelector(".layer-1");
+      let layer_2 = document.querySelector(".layer-2");
+      let layer_3 = document.querySelector(".layer-3");
+      let layer_4 = document.querySelector(".layer-4");
+      let layer_5 = document.querySelector(".layer-5");
+
+      window.onscroll = function () {
+        let Y = window.scrollY;
+
+        layer_1.style.transform = "translateY(" + Y / 1.5 + "px)";
+        layer_2.style.transform = "translateY(" + Y / 2 + "px)";
+        layer_3.style.transform = "translateY(" + Y / 1.5 + "px)";
+        layer_4.style.transform = "translateY(" + Y / 2 + "px)";
+        layer_5.style.transform = "translateY(" + Y / 3 + "px)";
+      };
+
+      function openTab(halaman, tombol) {
+        let i;
+        let namaClass = document.getElementsByClassName("halaman");
+        let namaClassButton = document.getElementsByClassName("tombol")
+
+        for (i = 0; i < namaClass.length; i++) {
+          namaClass[i].style.display = "none";
+          namaClassButton[i].style.backgroundColor = ""
+          namaClassButton[i].style.color = "white"
+        }
+
+        document.getElementById(tombol).style.color = "#514c9c";
+        document.getElementById(tombol).style.backgroundColor = "#FE008A";
+        document.getElementById(halaman).style.display = "block";
+      }
+    </script>
+  </body>
+</html>
